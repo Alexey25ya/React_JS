@@ -13,7 +13,7 @@ function ToggleTheme() {
         <div className={theme === 'light' ? `${classes.light}` : `${classes.dark}`}>
             <h1>Создать приложение, позволяющее пользователю переключать между светлой и темной темой сайта.
                 Текущая тема: <span style={{ color: 'Red', fontSize: '62px' }}>{theme}</span></h1>
-            <button onClick={toggleTheme} style={{ padding: '32px', borderRadius: "18px" }}> Изменить тему на {theme === 'light' ? 'dark' : 'light'}</button>
+            <button onClick={toggleTheme} style={{ padding: '32px', borderRadius: "18px", backgroundColor: theme === 'light' ? 'green' : 'blue' }}> Изменить тему на {theme === 'light' ? 'dark' : 'light'}</button>
         </div >
     );
 }
