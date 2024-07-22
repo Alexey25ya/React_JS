@@ -177,7 +177,7 @@ function Main() {
                         </article>
 
                         <div class="cards__button">
-                            <a href="catalog.html" class="button">Browse All Product</a>
+                            <Link to={`/catalog`} class="button">Browse All Product</Link>
                         </div>
 
                     </div>

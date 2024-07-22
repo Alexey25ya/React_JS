@@ -22,7 +22,7 @@ function Catalog() {
                     <h1>new arrivals</h1>
                     <nav>
                         <ul class="catalog__breadcrumbs">
-                            <li><a href="index.html">home</a></li>
+                            <li><Link to={`/main`}>home</Link></li>
                             <li><a href="#">men</a></li>
                             <li>new arrivals</li>
                         </ul>

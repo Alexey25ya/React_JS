@@ -16,7 +16,6 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/main" element={<Header />} />
           <Route path="/main" element={<Main />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/cart" element={<Cart />} />
